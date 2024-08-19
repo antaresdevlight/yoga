@@ -1,6 +1,6 @@
 import { Flex, Text } from "@chakra-ui/react";
 
-import Header from "../src/components/Layout/Header";
+import Header from "../src/components/Header";
 
 const styles = {};
 
