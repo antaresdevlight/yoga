@@ -1,23 +1,14 @@
 import { Flex, Text } from "@chakra-ui/react";
 
-import Header from "../src/components/Header";
-import FlexExamp from "@/src/components/FlexExamp";
-import TextExamp from "@/src/components/TextExamp";
-import ButtonExample from "@/src/components/ButtonExample";
-import ImageExamp from "@/src/components/ImageExamp";
-
-const styles = {};
+import TopSection from "@/src/sections/TopSection";
+import BenefitsSection from "@/src/sections/BenefitsSection";
 
 function Home() {
   return (
-    <Flex direction="column" padding="20px" gap="30px">
-      <FlexExamp />
+    <Flex direction="column">
+      <TopSection />
 
-      <TextExamp />
-
-      <ButtonExample />
-
-      <ImageExamp />
+      <BenefitsSection />
     </Flex>
   );
 }
