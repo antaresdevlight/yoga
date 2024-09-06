@@ -1,4 +1,4 @@
-import { Flex,Text } from "@chakra-ui/react";
+import {  Flex,Text } from "@chakra-ui/react";
 import Image from "next/image";
  import img1yoga from "src/assets/img1yoga.png";
 
@@ -10,6 +10,8 @@ function CardOne() {
             <Text fontSize="18px" fontWeight="400" lineHeight="normal" color="rgba(17, 39, 52, 0.70)" textAlign="center" marginTop="30px" >Experience the depth of knowledge
             from experts across all areas of yoga</Text>
         </Flex>
+
+        
     )
 }
 
