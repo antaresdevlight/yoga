@@ -4,7 +4,7 @@ function MainButton() {
   return (
     <Flex>
       <Button
-        w="360px"
+        w={{ base: "300px", md: "360px" }}
         h="68px"
         borderRadius="5px"
         backgroundColor="#B6990F"
@@ -16,7 +16,7 @@ function MainButton() {
         Start your journey
       </Button>
     </Flex>
-  )
+  );
 }
 
 export default MainButton;

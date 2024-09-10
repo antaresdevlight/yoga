@@ -12,8 +12,13 @@ function EmpowermentSection() {
         <HeadingText />
         <SubText />
 
-        <Flex justifyContent="space-between" border="1px">
-          <Flex direction="column">
+        <Flex
+          direction={{ base: "column", lg: "row" }}
+          justifyContent="space-between"
+          gap={{ base: "30px", md: "0" }}
+          border="1px"
+        >
+          <Flex direction="column" alignItems="center">
             <HeadingText />
             <SubText />
             <MainButton />

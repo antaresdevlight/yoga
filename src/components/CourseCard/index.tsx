@@ -3,7 +3,7 @@ import { Flex, Text } from "@chakra-ui/react";
 function CourseCard() {
   return (
     <Flex
-      w="360px"
+      w={{ base: "300px", md: "360px", lg: "300px", xl: "360px" }}
       h="410px"
       border="1px"
       backgroundColor="blue"
@@ -32,7 +32,6 @@ function CourseCard() {
         fontSize="48px"
         fontWeight="700"
         lineHeight="55px"
-        
         color="#FFF"
         textAlign="center"
       >

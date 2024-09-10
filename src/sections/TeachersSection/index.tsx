@@ -11,7 +11,13 @@ function TeachersSection() {
         <HeadingText />
         <SubText />
 
-        <Flex alignItems="center" justifyContent="space-between" border="1px">
+        <Flex
+          direction={{ base: "column", lg: "row" }}
+          alignItems="center"
+          justifyContent="space-between"
+          gap={{ base: "30px", md: "0" }}
+          border="1px"
+        >
           <CircleImage />
 
           <CircleImage />

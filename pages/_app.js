@@ -12,7 +12,17 @@ const colors = {
   },
 };
 
-export const theme = extendTheme({ colors });
+const breakpoints = {
+  base: "0px", // 0px
+  sm: "320px", // ~480px. em is a relative unit and is dependant on the font size.
+  md: "768px", // ~768px
+  lg: "1024px", // ~992px
+  lgs: "1300px",
+  xl: "1440px", // ~1280px
+  xxl: "1650px", // ~1536px
+};
+
+export const theme = extendTheme({ colors, breakpoints });
 
 // 3. Pass the `theme` prop to the `ChakraProvider`
 function MyApp({ Component, pageProps }) {

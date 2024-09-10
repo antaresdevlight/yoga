@@ -12,6 +12,7 @@ function BenefitsSection() {
 
         <Flex
           w="100%"
+          direction={{ base: "column", lg: "row" }}
           alignItems="center"
           justifyContent="center"
           gap="30px"
