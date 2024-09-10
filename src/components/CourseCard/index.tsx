@@ -26,9 +26,10 @@ function CourseCard() {
       <Flex
         w="279px"
         h="110px"
+        margin="0 auto"
         marginTop="100px"
-        marginLeft="40px"
-        marginRight="40px"
+        
+        border="1px"
         fontSize="48px"
         fontWeight="700"
         lineHeight="55px"
