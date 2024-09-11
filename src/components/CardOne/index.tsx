@@ -17,6 +17,7 @@ function CardOne() {
         fontWeight="400"
         lineHeight="normal"
         color="#B6990F"
+        textAlign="center"
       >
         World Class Teacher
       </Text>
