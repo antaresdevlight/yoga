@@ -10,6 +10,7 @@ import CircleImage from "@/src/components/CircleImage";
 import CourseCard from "@/src/components/CourseCard";
 import VerticalImage from "@/src/components/VerticalImage";
 import SummaryCard from "@/src/components/SummaryCard";
+import FormInput from "@/src/components/FormInput";
 
 function Tests() {
     return (
@@ -26,6 +27,7 @@ function Tests() {
             <CourseCard/>
             <VerticalImage/>
             <SummaryCard/>
+            <FormInput/>
             
         </div>
     )
