@@ -19,8 +19,6 @@ function Footer() {
         <Text fontSize="18px">Experience</Text>
         <Text fontSize="18px">News</Text>
         <Text fontSize="18px">Experience</Text>
-        <Text fontSize="18px">Experience</Text>
-        <Text fontSize="18px">Experience</Text>
       </Flex>
 
       <Flex gap="20px" marginTop="20px" marginBottom="20px">
