@@ -1,4 +1,4 @@
-import { Flex, Text, Button } from "@chakra-ui/react";
+import { Flex, Text, Button, Link } from "@chakra-ui/react";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 
@@ -15,17 +15,19 @@ function Footer() {
       backgroundColor="aqua"
     >
       <Flex gap="20px">
-        <Text fontSize="18px">Home</Text>
-        <Text fontSize="18px">Experience</Text>
-        <Text fontSize="18px">News</Text>
-        <Text fontSize="18px">Experience</Text>
-        <Text fontSize="18px">Experience</Text>
-        <Text fontSize="18px">Experience</Text>
+        <Link fontSize="18px">Home</Link>
+        <Link fontSize="18px">Experience</Link>
+        <Link fontSize="18px">News</Link>
+        <Link fontSize="18px">Experience</Link>
       </Flex>
 
       <Flex gap="20px" marginTop="20px" marginBottom="20px">
+       <Link>
         <FaFacebook style={{ width: "30px", height: "30px" }} />
+        </Link>
+        <Link>
         <FaInstagramSquare style={{ width: "30px", height: "30px" }} />
+        </Link>
       </Flex>
 
       <Flex>

@@ -11,6 +11,7 @@ import CourseCard from "@/src/components/CourseCard";
 import VerticalImage from "@/src/components/VerticalImage";
 import SummaryCard from "@/src/components/SummaryCard";
 import FormInput from "@/src/components/FormInput";
+import Header from "@/src/components/Header";
 
 function Tests() {
     return (
@@ -28,6 +29,7 @@ function Tests() {
             <VerticalImage/>
             <SummaryCard/>
             <FormInput/>
+            <Header/>
             
         </div>
     )
