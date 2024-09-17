@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import { ChakraProvider } from "@chakra-ui/react";
 
 // 1. Import the extendTheme function
 import { extendTheme } from "@chakra-ui/react";
 
+import Header from "../src/components/Header";
 import Footer from "../src/components/Footer";
 
 // 2. Extend the theme to include custom colors, fonts, etc
@@ -28,9 +30,13 @@ export const theme = extendTheme({ colors, breakpoints });
 
 // 3. Pass the `theme` prop to the `ChakraProvider`
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
   return (
     <ChakraProvider theme={theme}>
       <>
+        {router?.pathname !== "/" && <Header />}
+
         <Component {...pageProps} />
 
         <Footer />
