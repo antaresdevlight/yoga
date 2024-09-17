@@ -1,6 +1,9 @@
 import { Flex } from "@chakra-ui/react";
 
 import Header from "@/src/components/Header";
+import HeadingText from "@/src/components/HeadingText";
+import SubText from "@/src/components/SubText";
+import MainButton from "@/src/components/MainButton";
 
 import headerBG from "src/assets/headerBG.png";
 
@@ -19,6 +22,19 @@ function TopSection() {
         alignItems="center"
       >
         <Header />
+
+        <Flex
+          direction="column"
+          maxW="1000px"
+          alignItems="center"
+          marginTop={{ base: "50px", md: "80px", lg: "100px" }}
+        >
+          <HeadingText />
+
+          <SubText />
+
+          <MainButton />
+        </Flex>
       </Flex>
     </Flex>
   );
