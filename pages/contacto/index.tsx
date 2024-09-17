@@ -6,7 +6,7 @@ import FormInput from "@/src/components/FormInput";
 
 function Contact() {
   return (
-    <Flex w="100%" justifyContent="center">
+    <Flex w="100%" justifyContent="center" opacity="0">
       <Flex w="100%" maxW="1140px" direction="column" py="60px">
         <HeadingText />
         <SubText />

@@ -15,26 +15,25 @@ import Header from "@/src/components/Header";
 import Location from "@/src/components/Location";
 
 function Tests() {
-    return (
-        <div>
-            <MainButton/>
-            <Footer/>
-            <UserCard/>
-            <Logo/>
-            <HeadingText/>
-            <CardOne/>
-            <SubText/>
-            <HorizontalImage/>
-            <CircleImage/>
-            <CourseCard/>
-            <VerticalImage/>
-            <SummaryCard/>
-            <FormInput/>
-            <Header/>
-            <Location/>
-            
-        </div>
-    )
+  return (
+    <div>
+      <MainButton />
+      <Footer />
+      <UserCard />
+      <Logo />
+      <HeadingText />
+      <CardOne />
+      <SubText />
+      <HorizontalImage />
+      <CircleImage />
+      <CourseCard />
+      <VerticalImage />
+      <SummaryCard />
+      <FormInput />
+      <Header />
+      <Location />
+    </div>
+  );
 }
 
 export default Tests;

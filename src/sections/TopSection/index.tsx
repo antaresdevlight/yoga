@@ -16,6 +16,7 @@ function TopSection() {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         direction="column"
+        alignItems="center"
       >
         <Header />
       </Flex>
