@@ -10,25 +10,30 @@ import CircleImage from "@/src/components/CircleImage";
 import CourseCard from "@/src/components/CourseCard";
 import VerticalImage from "@/src/components/VerticalImage";
 import SummaryCard from "@/src/components/SummaryCard";
+import FormInput from "@/src/components/FormInput";
+import Header from "@/src/components/Header";
+import Location from "@/src/components/Location";
 
 function Tests() {
-    return (
-        <div>
-            <MainButton/>
-            <Footer/>
-            <UserCard/>
-            <Logo/>
-            <HeadingText/>
-            <CardOne/>
-            <SubText/>
-            <HorizontalImage/>
-            <CircleImage/>
-            <CourseCard/>
-            <VerticalImage/>
-            <SummaryCard/>
-            
-        </div>
-    )
+  return (
+    <div>
+      <MainButton />
+      <Footer />
+      <UserCard />
+      <Logo />
+      <HeadingText />
+      <CardOne />
+      <SubText />
+      <HorizontalImage />
+      <CircleImage />
+      <CourseCard />
+      <VerticalImage />
+      <SummaryCard />
+      <FormInput />
+      <Header />
+      <Location />
+    </div>
+  );
 }
 
 export default Tests;

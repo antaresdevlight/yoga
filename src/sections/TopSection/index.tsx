@@ -1,5 +1,7 @@
 import { Flex } from "@chakra-ui/react";
 
+import Header from "@/src/components/Header";
+
 import headerBG from "src/assets/headerBG.png";
 
 function TopSection() {
@@ -13,7 +15,11 @@ function TopSection() {
         backgroundSize="cover"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
-      ></Flex>
+        direction="column"
+        alignItems="center"
+      >
+        <Header />
+      </Flex>
     </Flex>
   );
 }
