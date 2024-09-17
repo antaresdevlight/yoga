@@ -12,6 +12,7 @@ import VerticalImage from "@/src/components/VerticalImage";
 import SummaryCard from "@/src/components/SummaryCard";
 import FormInput from "@/src/components/FormInput";
 import Header from "@/src/components/Header";
+import Location from "@/src/components/Location";
 
 function Tests() {
     return (
@@ -30,6 +31,7 @@ function Tests() {
             <SummaryCard/>
             <FormInput/>
             <Header/>
+            <Location/>
             
         </div>
     )
