@@ -13,6 +13,9 @@ import SummaryCard from "@/src/components/SummaryCard";
 import FormInput from "@/src/components/FormInput";
 import Header from "@/src/components/Header";
 import Location from "@/src/components/Location";
+import Me from "@/src/components/Me";
+import About from "@/src/components/About";
+import MyWork from "@/src/components/MyWork";
 
 function Tests() {
   return (
@@ -32,6 +35,9 @@ function Tests() {
       <FormInput />
       <Header />
       <Location />
+      <Me />
+      <About />
+      <MyWork />
     </div>
   );
 }
