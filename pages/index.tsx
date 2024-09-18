@@ -13,17 +13,17 @@ function Home() {
     <Flex direction="column" bg="#f5f5f5">
       <TopSection />
 
-      <BenefitsSection />
-
-      <ImageAndCardSection />
-
-      <ChallengeSection />
-
       <CoursesSection />
+
+      <EmpowermentSection />
 
       <TeachersSection />
 
-      <EmpowermentSection />
+      <ImageAndCardSection />
+
+      <BenefitsSection />
+
+      <ChallengeSection />
     </Flex>
   );
 }

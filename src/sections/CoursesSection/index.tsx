@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Tooltip } from "@chakra-ui/react";
 
 import HeadingText from "@/src/components/HeadingText";
 import SubText from "@/src/components/SubText";
