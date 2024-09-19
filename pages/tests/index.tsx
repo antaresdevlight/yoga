@@ -16,6 +16,7 @@ import Location from "@/src/components/Location";
 import Me from "@/src/components/Me";
 import About from "@/src/components/About";
 import MyWork from "@/src/components/MyWork";
+import MyProjects from "@/src/components/MyProjects";
 
 function Tests() {
     return (
@@ -38,6 +39,7 @@ function Tests() {
             <Me/>
             <About/>
             <MyWork/>
+            <MyProjects/>
             
         </div>
     )
