@@ -18,7 +18,7 @@ function MyProjects() {
         MY PROJECTS
       </Text>
 
-      <Flex border="1px" gap="20px" marginBottom="40px">
+      <Flex  gap="20px" marginBottom="40px" >
         <Image src={imagen2} width={250} height={150} alt="img1" />
         <Image src={imagen3} width={250} height={150} alt="img1" />
         <Image src={imagen4} width={250} height={150} alt="img1" />

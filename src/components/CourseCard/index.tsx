@@ -5,13 +5,11 @@ function CourseCard() {
     <Flex
       w="360px"
       h="410px"
-      border="1px"
       backgroundColor="blue"
       paddingTop="20px"
       direction="column"
     >
       <Flex
-        border="1px"
         paddingLeft="30px"
         w="150px"
         h="25px"
@@ -28,12 +26,9 @@ function CourseCard() {
         h="110px"
         margin="0 auto"
         marginTop="100px"
-        
-        border="1px"
         fontSize="48px"
         fontWeight="700"
         lineHeight="55px"
-        
         color="#FFF"
         textAlign="center"
       >

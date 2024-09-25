@@ -9,7 +9,6 @@ function FlexExamp() {
       borderRadius="20px"
       alignItems="center"
       padding="10px"
-      border="1px"
     >
       FlexExamp
     </Flex>

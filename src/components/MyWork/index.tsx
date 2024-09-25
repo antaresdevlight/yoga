@@ -37,7 +37,7 @@ function MyWork() {
           <Flex
             w="30px"
             h="30px"
-            border="1px"
+            
             backgroundColor="#FFA688"
             justifyContent="center"
             alignItems="center"
@@ -66,7 +66,7 @@ function MyWork() {
           <Flex
             w="30px"
             h="30px"
-            border="1px"
+            
             backgroundColor="#FFA688"
             justifyContent="center"
             alignItems="center"
@@ -96,7 +96,7 @@ function MyWork() {
           <Flex
             w="30px"
             h="30px"
-            border="1px"
+          
             backgroundColor="#FFA688"
             justifyContent="center"
             alignItems="center"

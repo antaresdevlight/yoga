@@ -4,13 +4,7 @@ import img1yoga from "src/assets/img1yoga.png";
 
 function CardOne() {
   return (
-    <Flex
-      w="360px"
-      h="470px"
-      border="1px"
-      direction="column"
-      alignItems="center"
-    >
+    <Flex w="360px" h="470px" direction="column" alignItems="center">
       <Image src={img1yoga} width={338} height={307} alt="" />
       <Text
         fontSize="36px"

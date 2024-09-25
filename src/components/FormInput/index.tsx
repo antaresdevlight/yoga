@@ -4,7 +4,7 @@ import imagen4 from "src/assets/imagen4.png";
 
 function FormInput() {
   return (
-    <Flex paddingLeft="100px" paddingRight="100px" paddingTop="50px" paddingBottom="50px" border="1px" gap="100px" justifyContent="center">
+    <Flex paddingLeft="100px" paddingRight="100px" paddingTop="50px" paddingBottom="50px"  gap="100px" justifyContent="center">
       <Flex direction="column" gap="10px"  >
         <Text
           color="#BA68C8"

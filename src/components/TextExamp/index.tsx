@@ -9,7 +9,6 @@ function TextExamp() {
       fontWeight="700"
       lineHeight="24px"
       textAlign="center"
-      border="1px"
     >
       TextExamp
     </Text>
