@@ -21,7 +21,7 @@ function Header() {
           lineHeight="normal"
           color="#375B26"
         >
-          Yoga International
+          Yoga Iris Castelán
         </Text>
       </Flex>
 
@@ -32,7 +32,7 @@ function Header() {
           lineHeight="normal"
           color="#112734"
         >
-          Articles
+          Clases
         </Link>
         <Link
           fontSize="14px"
@@ -40,7 +40,7 @@ function Header() {
           lineHeight="normal"
           color="#112734"
         >
-          Classes
+          Talleres
         </Link>
         <Link
           fontSize="14px"
@@ -48,7 +48,7 @@ function Header() {
           lineHeight="normal"
           color="#112734"
         >
-          Courses
+          Retiros
         </Link>
         <Link
           fontSize="14px"
@@ -56,7 +56,7 @@ function Header() {
           lineHeight="normal"
           color="#112734"
         >
-          Teachers
+          Sobre Mí
         </Link>
         <Link
           fontSize="14px"
@@ -64,7 +64,7 @@ function Header() {
           lineHeight="normal"
           color="#112734"
         >
-          About
+          Testimonios
         </Link>
       </Flex>
     </Flex>

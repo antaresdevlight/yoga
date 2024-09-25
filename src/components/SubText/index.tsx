@@ -1,6 +1,6 @@
 import { Flex, Text } from "@chakra-ui/react";
 
-function SubText() {
+function SubText(props: any) {
   return (
     <Flex>
       <Text
@@ -10,7 +10,7 @@ function SubText() {
         color="rgba(17, 39, 52, 0.70)"
         margin="50px"
       >
-        Take your practice to the next level with our on-going yoga challenges
+        {props.text1}
       </Text>
     </Flex>
   );

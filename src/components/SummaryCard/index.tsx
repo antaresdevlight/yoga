@@ -1,9 +1,9 @@
 import { Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import imagen4 from "src/assets/imagen4.png";
-function SummaryCard() {
+function SummaryCard(props: any) {
   return (
-    <Flex borderRadius="15px" w="555px" direction="column">
+    <Flex borderRadius="15px" w="555px" direction="column" border="1px">
       <Image src={imagen4} width={555} height={297} alt="imagen4" />
 
       <Flex
@@ -13,7 +13,7 @@ function SummaryCard() {
         paddingTop="18px"
         paddingBottom="18px"
       >
-        <Flex alignItems="center" >
+        <Flex alignItems="center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="44"
@@ -58,39 +58,69 @@ function SummaryCard() {
             lineHeight="normal"
             color="#112734"
           >
-            Hatha yoga
+            {props.text1}
           </Text>
         </Flex>
 
         <Flex>
-          <Text fontSize="18px" fontWeight="700" lineHeight="normal" color="rgba(17, 39, 52, 0.70">
-            Level 2
+          <Text
+            fontSize="18px"
+            fontWeight="700"
+            lineHeight="normal"
+            color="rgba(17, 39, 52, 0.70"
+          >
+            {props.text2}
           </Text>
         </Flex>
       </Flex>
 
-     <Flex justifyContent="space-between">
-      <Flex  w="200px" alignItems="center">
-        <Flex borderRadius="full" w="48px" h="48px"  margin="20px" overflow="hidden">
-          <Image src={imagen4} width={48} height={48} alt="" />
+      <Flex justifyContent="space-between">
+        <Flex w="200px" alignItems="center">
+          <Flex
+            borderRadius="full"
+            w="48px"
+            h="48px"
+            margin="20px"
+            overflow="hidden"
+          >
+            <Image src={imagen4} width={48} height={48} alt="" />
+          </Flex>
+
+          <Flex>
+            <Text
+              fontSize="18px"
+              fontWeight="400"
+              lineHeight="normal"
+              color="rgba(17, 39, 52, 0.70)"
+            >
+              {props.text3}
+            </Text>
+          </Flex>
         </Flex>
 
-        <Flex>
-            <Text fontSize="18px" fontWeight="400" lineHeight="normal" color="rgba(17, 39, 52, 0.70)">Noah Maze</Text>
+        <Flex w="200px" alignItems="center">
+          <Flex
+            borderRadius="full"
+            w="48px"
+            h="48px"
+            margin="20px"
+            overflow="hidden"
+          >
+            <Image src={imagen4} width={48} height={48} alt="" />
+          </Flex>
+
+          <Flex>
+            <Text
+              fontSize="18px"
+              fontWeight="400"
+              lineHeight="normal"
+              color="rgba(17, 39, 52, 0.70)"
+            >
+              {props.text4}
+            </Text>
+          </Flex>
         </Flex>
       </Flex>
-
-      <Flex  w="200px" alignItems="center">
-        <Flex borderRadius="full" w="48px" h="48px"  margin="20px" overflow="hidden">
-          <Image src={imagen4} width={48} height={48} alt="" />
-        </Flex>
-
-        <Flex>
-            <Text fontSize="18px" fontWeight="400" lineHeight="normal" color="rgba(17, 39, 52, 0.70)">Noah Maze</Text>
-        </Flex>
-      </Flex>
-      </Flex> 
-      
     </Flex>
   );
 }

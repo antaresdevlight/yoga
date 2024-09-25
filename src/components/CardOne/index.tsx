@@ -2,7 +2,7 @@ import { Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import img1yoga from "src/assets/img1yoga.png";
 
-function CardOne() {
+function CardOne(props: any) {
   return (
     <Flex w="360px" h="470px" direction="column" alignItems="center">
       <Image src={img1yoga} width={338} height={307} alt="" />
@@ -13,7 +13,7 @@ function CardOne() {
         color="#B6990F"
         textAlign="center"
       >
-        World Class Teacher
+        {props.titulo}
       </Text>
       <Text
         fontSize="18px"
@@ -23,7 +23,7 @@ function CardOne() {
         textAlign="center"
         marginTop="30px"
       >
-        Experience the depth of knowledge from experts across all areas of yoga
+        {props.titulo2}
       </Text>
     </Flex>
   );

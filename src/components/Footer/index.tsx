@@ -16,9 +16,9 @@ function Footer() {
     >
       <Flex gap="20px">
         <Link fontSize="18px">Home</Link>
-        <Link fontSize="18px">Experience</Link>
-        <Link fontSize="18px">News</Link>
-        <Link fontSize="18px">Experience</Link>
+        <Link fontSize="18px">Clases</Link>
+        <Link fontSize="18px">Talleres</Link>
+        <Link fontSize="18px">Retiros</Link>
       </Flex>
 
       <Flex gap="20px" marginTop="20px" marginBottom="20px">
