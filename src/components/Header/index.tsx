@@ -3,13 +3,14 @@ import { Flex, Link, Text } from "@chakra-ui/react";
 function Header() {
   return (
     <Flex
-      w={{ base: "300px", md: "auto" }}
+      w={{ base: "100%", md: "auto" }}
       direction={{ base: "column", md: "row" }}
       paddingBottom="50px"
       paddingTop="50px"
       justifyContent="center"
       gap="30px"
       alignItems="center"
+      border="1px"
     >
       <Flex justifyContent="center" gap="10px" alignItems="center">
         <Flex border="2px" w="45px" h="45px"></Flex>

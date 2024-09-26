@@ -21,7 +21,12 @@ function MyWork() {
       </Text>
       <Text>-------</Text>
 
-      <Flex gap="50px" paddingTop="50px">
+      <Flex
+        gap="50px"
+        paddingTop="50px"
+        direction={{ base: "column", lg: "row" }}
+        alignItems="center"
+      >
         <Flex
           w="200px"
           h="200px"

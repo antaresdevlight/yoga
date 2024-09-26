@@ -1,10 +1,17 @@
 import { Button, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
-import imagen3 from "src/assets/imagen3.png"
+import imagen3 from "src/assets/imagen3.png";
 
 function Me() {
   return (
-    <Flex paddingBottom="50px" paddingTop="50px" alignItems="center" justifyContent="center" gap="100px">
+    <Flex
+      paddingBottom="50px"
+      paddingTop="50px"
+      alignItems="center"
+      justifyContent="center"
+      gap={{ base: "80px", md: "50px", lg: "100px" }}
+      direction={{ base: "column", md: "row" }}
+    >
       <Flex direction="column">
         <Flex direction="column">
           <Text fontSize="28px" fontWeight="600" lineHeight="normal">
@@ -23,7 +30,12 @@ function Me() {
           </Text>
         </Flex>
 
-        <Flex gap="20px" marginTop="50px">
+        <Flex
+          direction={{ base: "column", md: "row" }}
+          gap="20px"
+          marginTop="50px"
+          alignItems="center"
+        >
           <Button
             borderRadius="7px"
             w="180px"
