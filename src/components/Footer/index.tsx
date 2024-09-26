@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Flex
       w="100%"
-      border="1px"
+    
       justifyContent="center"
       direction="column"
       alignItems="center"

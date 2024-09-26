@@ -4,17 +4,8 @@ import imagen4 from "src/assets/imagen4.png";
 
 function FormInput() {
   return (
-    <Flex
-      direction={{ base: "column", lg: "row" }}
-      paddingLeft="100px"
-      paddingRight="100px"
-      paddingTop="50px"
-      paddingBottom="50px"
-      border="1px"
-      gap="100px"
-      justifyContent="center"
-    >
-      <Flex direction="column" gap="10px">
+    <Flex paddingLeft="100px" paddingRight="100px" paddingTop="50px" paddingBottom="50px"  gap="100px" justifyContent="center">
+      <Flex direction="column" gap="10px"  >
         <Text
           color="#BA68C8"
           fontSize="30px"

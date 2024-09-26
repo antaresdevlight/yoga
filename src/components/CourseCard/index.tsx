@@ -5,13 +5,11 @@ function CourseCard() {
     <Flex
       w={{ base: "300px", md: "360px", lg: "300px", xl: "360px" }}
       h="410px"
-      border="1px"
       backgroundColor="blue"
       paddingTop="20px"
       direction="column"
     >
       <Flex
-        border="1px"
         paddingLeft="30px"
         w="150px"
         h="25px"

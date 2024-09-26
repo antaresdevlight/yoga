@@ -1,19 +1,20 @@
 import { Flex, Link, Text } from "@chakra-ui/react";
+import Image from "next/image";
+import logo_yoga from "src/assets/logo_yoga.jpg";
 
 function Header() {
   return (
     <Flex
-      w={{ base: "100%", md: "auto" }}
-      direction={{ base: "column", md: "row" }}
       paddingBottom="50px"
       paddingTop="50px"
       justifyContent="center"
       gap="30px"
       alignItems="center"
-      border="1px"
     >
       <Flex justifyContent="center" gap="10px" alignItems="center">
-        <Flex border="2px" w="45px" h="45px"></Flex>
+        <Flex w="45px" h="45px">
+          <Image src={logo_yoga} width={45} height={45} alt="logo_yoga" />
+        </Flex>
         <Text
           fontSize="18px"
           fontWeight="700"
@@ -24,13 +25,7 @@ function Header() {
         </Text>
       </Flex>
 
-      <Flex
-        w={{ base: "300px", md: "auto" }}
-        flexWrap="wrap"
-        gap="30px"
-        alignItems="center"
-        justifyContent="center"
-      >
+      <Flex gap="30px">
         <Link
           fontSize="14px"
           fontWeight="700"

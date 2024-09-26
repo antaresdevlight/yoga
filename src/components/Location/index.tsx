@@ -10,7 +10,7 @@ function Location() {
       paddingRight="100px"
       paddingTop="50px"
       paddingBottom="50px"
-      border="1px"
+      
       gap="100px"
       justifyContent="center"
     >
@@ -36,7 +36,7 @@ function Location() {
           We are here for you! How can we help?
         </Text>
 
-        <Flex w="300px" h="350px" border="2px" marginTop="40px">
+        <Flex w="300px" h="350px"  marginTop="40px">
           <Image src={yogaTamarindo} width={300} height={350} alt="" />
         </Flex>
       </Flex>
