@@ -1,14 +1,9 @@
 import { Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import imagen4 from "src/assets/imagen4.png";
-function SummaryCard() {
+function SummaryCard(props: any) {
   return (
-    <Flex
-      borderRadius="15px"
-      w={{ base: "90vw", md: "555px" }}
-      direction="column"
-      border="1px"
-    >
+    <Flex borderRadius="15px" w="555px" direction="column" border="1px">
       <Image src={imagen4} width={555} height={297} alt="imagen4" />
 
       <Flex
@@ -63,7 +58,7 @@ function SummaryCard() {
             lineHeight="normal"
             color="#112734"
           >
-            Hatha yoga
+            {props.text1}
           </Text>
         </Flex>
 
@@ -74,7 +69,7 @@ function SummaryCard() {
             lineHeight="normal"
             color="rgba(17, 39, 52, 0.70"
           >
-            Level 2
+            {props.text2}
           </Text>
         </Flex>
       </Flex>
@@ -98,7 +93,7 @@ function SummaryCard() {
               lineHeight="normal"
               color="rgba(17, 39, 52, 0.70)"
             >
-              Noah Maze
+              {props.text3}
             </Text>
           </Flex>
         </Flex>
@@ -121,7 +116,7 @@ function SummaryCard() {
               lineHeight="normal"
               color="rgba(17, 39, 52, 0.70)"
             >
-              Noah Maze
+              {props.text4}
             </Text>
           </Flex>
         </Flex>

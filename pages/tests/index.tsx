@@ -21,18 +21,28 @@ import MyProjects from "@/src/components/MyProjects";
 function Tests() {
   return (
     <div>
-      <MainButton />
+      <MainButton text1={"Ver cursos"} />
       <Footer />
       <UserCard />
       <Logo />
-      <HeadingText />
-      <CardOne />
-      <SubText />
+      <HeadingText text1={"buenos dias"} />
+      <CardOne
+        titulo={"Energia Creadora"}
+        titulo2={
+          "Recibo con amor tantas bendiciones y sabiduria que este retiro nos ayudo a descubrir"
+        }
+      />
+      <SubText text1={"Transforma tu perspectiva"} />
       <HorizontalImage />
       <CircleImage />
-      <CourseCard />
+      <CourseCard name={"Clases grupales"} precio={"Costo $120"} />
       <VerticalImage />
-      <SummaryCard />
+      <SummaryCard
+        text1={"RE COR DARTE"}
+        text2={"Retiro"}
+        text3={"22-24 Noviembre"}
+        text4={"Bosques del Zembo Huasca"}
+      />
       <FormInput />
       <Header />
       <Location />

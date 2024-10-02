@@ -1,6 +1,6 @@
 import { Flex, Button } from "@chakra-ui/react";
 
-function MainButton() {
+function MainButton(props: any) {
   return (
     <Flex>
       <Button
@@ -13,7 +13,7 @@ function MainButton() {
         lineHeight="normal"
         color="#FFF"
       >
-        Start your journey
+        {props.text1}
       </Button>
     </Flex>
   );

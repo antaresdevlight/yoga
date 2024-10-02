@@ -1,6 +1,6 @@
 import { Flex, Text } from "@chakra-ui/react";
 
-function CourseCard() {
+function CourseCard(props: any) {
   return (
     <Flex
       w={{ base: "300px", md: "360px", lg: "300px", xl: "360px" }}
@@ -18,7 +18,7 @@ function CourseCard() {
         lineHeight="normal"
         color="#FFF"
       >
-        Course| $120
+        {props.precio}
       </Flex>
 
       <Flex
@@ -32,7 +32,7 @@ function CourseCard() {
         color="#FFF"
         textAlign="center"
       >
-        7 days of Relation
+        {props.name}
       </Flex>
 
       <Flex
