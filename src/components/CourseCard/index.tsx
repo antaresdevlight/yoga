@@ -8,6 +8,7 @@ function CourseCard(props: any) {
       backgroundColor="blue"
       paddingTop="20px"
       direction="column"
+      
     >
       <Flex
         paddingLeft="30px"
@@ -31,6 +32,9 @@ function CourseCard(props: any) {
         lineHeight="55px"
         color="#FFF"
         textAlign="center"
+        justifyContent="center"
+        alignItems="center"
+        
       >
         {props.name}
       </Flex>

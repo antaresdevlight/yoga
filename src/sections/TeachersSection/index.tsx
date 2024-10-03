@@ -8,7 +8,7 @@ function TeachersSection() {
   return (
     <Flex w="100%" justifyContent="center">
       <Flex w="100%" maxW="1140px" direction="column" py="40px">
-        <HeadingText />
+        <HeadingText text1={"Tus Guias"}/>
         <SubText />
 
         <Flex

@@ -29,11 +29,15 @@ function TopSection() {
           alignItems="center"
           marginTop={{ base: "50px", md: "80px", lg: "100px" }}
         >
-          <HeadingText />
+          <HeadingText text1={"Iris Castelán Yoga"} />
 
-          <SubText />
+          <SubText
+            text1={
+              "Todos somos seres humanos, nos equivocamos. La diferencia es lo que decides hacer con tus decisiones"
+            }
+          />
 
-          <MainButton />
+          <MainButton text1={"Ver clases"} />
         </Flex>
       </Flex>
     </Flex>
