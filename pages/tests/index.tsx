@@ -17,6 +17,7 @@ import Me from "@/src/components/Me";
 import About from "@/src/components/About";
 import MyWork from "@/src/components/MyWork";
 import MyProjects from "@/src/components/MyProjects";
+import ClassesGroup from "@/src/components/ClassesGroup";
 
 function Tests() {
   return (
@@ -50,6 +51,7 @@ function Tests() {
       <About />
       <MyWork />
       <MyProjects />
+      <ClassesGroup/>
     </div>
   );
 }
