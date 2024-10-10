@@ -12,7 +12,7 @@ function Header() {
       alignItems="center"
     >
       <Flex justifyContent="center" gap="10px" alignItems="center">
-        <Flex w="45px" h="45px">
+        <Flex w="45px" h="45px" borderRadius="full"  overflow="hidden">
           <Image src={logo_yoga} width={45} height={45} alt="logo_yoga" />
         </Flex>
         <Text

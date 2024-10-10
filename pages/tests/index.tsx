@@ -22,7 +22,7 @@ import ClassesGroup from "@/src/components/ClassesGroup";
 function Tests() {
   return (
     <div>
-      <MainButton text1={"Ver cursos"} />
+      <MainButton text1={"Ver cursos"} color={"blue"} />
       <Footer />
       <UserCard />
       <Logo />
@@ -36,7 +36,7 @@ function Tests() {
       <SubText text1={"Transforma tu perspectiva"} />
       <HorizontalImage />
       <CircleImage />
-      <CourseCard name={"Clases grupales"} precio={"Costo $120"} />
+      <CourseCard name={"Clases grupales"} precio={"Costo $120"} color={"purple"}/>
       <VerticalImage />
       <SummaryCard
         text1={"RE COR DARTE"}

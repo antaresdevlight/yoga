@@ -7,7 +7,7 @@ function MainButton(props: any) {
         w={{ base: "300px", md: "360px" }}
         h="68px"
         borderRadius="5px"
-        backgroundColor="#B6990F"
+        backgroundColor={props.color}
         fontSize="24px"
         fontWeight="700"
         lineHeight="normal"

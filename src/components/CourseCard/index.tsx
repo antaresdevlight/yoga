@@ -5,7 +5,7 @@ function CourseCard(props: any) {
     <Flex
       w={{ base: "300px", md: "360px", lg: "300px", xl: "360px" }}
       h="410px"
-      backgroundColor="blue"
+      backgroundColor={props.color}
       paddingTop="20px"
       direction="column"
       
