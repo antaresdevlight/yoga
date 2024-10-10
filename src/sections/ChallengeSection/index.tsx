@@ -16,7 +16,6 @@ function ChallengeSection() {
           alignItems="center"
           justifyContent="space-between"
           gap={{ base: "30px", md: "0" }}
-          border="1px"
         >
           <HorizontalImage />
           <HorizontalImage />

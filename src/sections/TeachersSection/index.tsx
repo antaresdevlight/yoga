@@ -8,7 +8,7 @@ function TeachersSection() {
   return (
     <Flex w="100%" justifyContent="center">
       <Flex w="100%" maxW="1140px" direction="column" py="40px">
-        <HeadingText text1={"Tus Guias"}/>
+        <HeadingText text1={"Tus Guias"} />
         <SubText />
 
         <Flex
@@ -16,7 +16,6 @@ function TeachersSection() {
           alignItems="center"
           justifyContent="space-between"
           gap={{ base: "30px", md: "0" }}
-          border="1px"
         >
           <CircleImage />
 

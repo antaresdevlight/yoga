@@ -16,7 +16,6 @@ function EmpowermentSection() {
           direction={{ base: "column", lg: "row" }}
           justifyContent="space-between"
           gap={{ base: "30px", md: "0" }}
-          border="1px"
         >
           <Flex direction="column" alignItems="center">
             <HeadingText />
