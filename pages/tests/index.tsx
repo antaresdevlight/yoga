@@ -20,7 +20,8 @@ import MyProjects from "@/src/components/MyProjects";
 import ClassesGroup from "@/src/components/ClassesGroup";
 import EventCard from "@/src/components/EventCard";
 import RetCard from "@/src/components/RetCard";
-
+import EventGroup from "@/src/components/EventGroup";
+import RetGroup from "@/src/components/RetGroup";
 function Tests() {
   return (
     <div>
@@ -60,6 +61,8 @@ function Tests() {
       <ClassesGroup />
       <EventCard />
       <RetCard/>
+      <EventGroup/>
+      <RetGroup/>
     </div>
   );
 }
