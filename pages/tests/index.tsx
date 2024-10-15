@@ -18,6 +18,8 @@ import About from "@/src/components/About";
 import MyWork from "@/src/components/MyWork";
 import MyProjects from "@/src/components/MyProjects";
 import ClassesGroup from "@/src/components/ClassesGroup";
+import EventCard from "@/src/components/EventCard";
+import RetCard from "@/src/components/RetCard";
 
 function Tests() {
   return (
@@ -36,7 +38,11 @@ function Tests() {
       <SubText text1={"Transforma tu perspectiva"} />
       <HorizontalImage />
       <CircleImage />
-      <CourseCard name={"Clases grupales"} precio={"Costo $120"} color={"purple"}/>
+      <CourseCard
+        name={"Clases grupales"}
+        precio={"Costo $120"}
+        color={"purple"}
+      />
       <VerticalImage />
       <SummaryCard
         text1={"RE COR DARTE"}
@@ -51,7 +57,9 @@ function Tests() {
       <About />
       <MyWork />
       <MyProjects />
-      <ClassesGroup/>
+      <ClassesGroup />
+      <EventCard />
+      <RetCard/>
     </div>
   );
 }
