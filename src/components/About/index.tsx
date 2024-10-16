@@ -12,14 +12,10 @@ function About() {
       paddingBottom="50px"
       paddingTop="50px"
     >
-      <Flex
-        gap="50px"
-        direction={{ base: "column", lg: "row" }}
-        alignItems={{ base: "center", lg: "normal" }}
-      >
+      <Flex gap="50px">
         <Image src={mujer} width={300} height={650} alt="mujer" />
 
-        <Flex direction="column" gap="25px" justifyContent="center">
+        <Flex direction="column" gap="25px" justifyContent="center" w="500px">
           <Text
             fontSize="30px"
             fontWeight="600"
@@ -28,22 +24,12 @@ function About() {
           >
             ABOUT ME
           </Text>
-          <Text
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="normal"
-            maxW={{ base: "300px", md: "400px", lg: "auto" }}
-          >
+          <Text fontSize="18px" fontWeight="400" lineHeight="normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco.
           </Text>
-          <Text
-            fontSize="18px"
-            fontWeight="400"
-            lineHeight="normal"
-            maxW={{ base: "300px", md: "400px", lg: "auto" }}
-          >
+          <Text fontSize="18px" fontWeight="400" lineHeight="normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </Text>
