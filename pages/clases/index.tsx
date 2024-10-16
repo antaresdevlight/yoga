@@ -2,14 +2,14 @@ import { Flex } from "@chakra-ui/react";
 
 import HeadingText from "@/src/components/HeadingText";
 import SubText from "@/src/components/SubText";
-import FormInput from "@/src/components/FormInput";
+import ClassesGroup from "@/src/components/ClassesGroup";
 
-function Contact() {
+function Clases() {
   return (
     <Flex w="100%" justifyContent="center">
-      <Flex w="100%" maxW="1140px" direction="column" py="60px">
-        <HeadingText text1={"Contacto"} />
-        <SubText text1="Envianos tus dudas" />
+      <Flex w="100%" maxW="1140px" direction="column" py="80px">
+        <HeadingText text1={"Clases"} />
+        <SubText text1="Conoce nuestra oferta de clases" />
 
         <Flex
           w="100%"
@@ -18,11 +18,11 @@ function Contact() {
           justifyContent="center"
           mt="10px"
         >
-          <FormInput />
+          <ClassesGroup />
         </Flex>
       </Flex>
     </Flex>
   );
 }
 
-export default Contact;
+export default Clases;

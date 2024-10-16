@@ -9,6 +9,10 @@ import Footer from "../src/components/Footer";
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
+  iPurple: "#662d91",
+  iRed: "#c1252d",
+  iOrange: "#ce7c0f",
+  iGreen: "#9da334",
   brand: {
     900: "#1a365d",
     800: "#153e75",

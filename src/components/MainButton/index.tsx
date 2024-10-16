@@ -4,6 +4,7 @@ function MainButton(props: any) {
   return (
     <Flex>
       <Button
+        variant="unstyled"
         w={{ base: "300px", md: "360px" }}
         h="68px"
         borderRadius="5px"
@@ -12,6 +13,8 @@ function MainButton(props: any) {
         fontWeight="700"
         lineHeight="normal"
         color="#FFF"
+        _hover={{ opacity: "0.9" }}
+        onClick={props.onClick}
       >
         {props.text1}
       </Button>

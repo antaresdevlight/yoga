@@ -1,4 +1,5 @@
-import { Flex, Tooltip } from "@chakra-ui/react";
+import NextLink from "next/link";
+import { Flex, Tooltip, Link } from "@chakra-ui/react";
 
 import HeadingText from "@/src/components/HeadingText";
 import SubText from "@/src/components/SubText";
@@ -18,17 +19,23 @@ function CoursesSection() {
           justifyContent="space-between"
           gap={{ base: "30px", md: "20px" }}
         >
-          <CourseCard name={"Clases grupales"} />
+          <Link
+            as={NextLink}
+            href="/clases"
+            _hover={{ textDecoration: "none" }}
+          >
+            <CourseCard name={"Clases grupales"} color="iOrange" />
+          </Link>
 
-          <CourseCard name={"Clases especiales"} />
+          <CourseCard name={"Clases especiales"} color="iOrange" />
 
-          <CourseCard name={"Talleres"} />
+          <CourseCard name={"Talleres"} color="iGreen" />
 
-          <CourseCard name={"Retiros"} />
+          <CourseCard name={"Retiros"} color="iPurple" />
 
-          <CourseCard name={"Testimonios"} />
+          <CourseCard name={"Testimonios"} color="iRed" />
 
-          <CourseCard name={"Eventos"} />
+          <CourseCard name={"Eventos"} color="iPurple" />
         </Flex>
       </Flex>
     </Flex>

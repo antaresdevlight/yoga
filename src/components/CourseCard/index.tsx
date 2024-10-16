@@ -8,7 +8,6 @@ function CourseCard(props: any) {
       backgroundColor={props.color}
       paddingTop="20px"
       direction="column"
-      
     >
       <Flex
         paddingLeft="30px"
@@ -34,12 +33,11 @@ function CourseCard(props: any) {
         textAlign="center"
         justifyContent="center"
         alignItems="center"
-        
       >
         {props.name}
       </Flex>
 
-      <Flex
+      {/* <Flex
         justifyContent="space-between"
         marginTop="100px"
         fontSize="18px"
@@ -51,7 +49,7 @@ function CourseCard(props: any) {
       >
         <Text>Ver Mas</Text>
         <Text>Reservar</Text>
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 }

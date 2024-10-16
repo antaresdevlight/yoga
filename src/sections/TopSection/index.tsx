@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { Flex } from "@chakra-ui/react";
 
 import Header from "@/src/components/Header";
@@ -8,6 +9,8 @@ import MainButton from "@/src/components/MainButton";
 import headerBG from "src/assets/headerBG.png";
 
 function TopSection() {
+  const router = useRouter();
+
   return (
     <Flex w="100%" justifyContent="center">
       <Flex
@@ -37,7 +40,11 @@ function TopSection() {
             }
           />
 
-          <MainButton text1={"Ver clases"} />
+          <MainButton
+            text1={"Ver clases"}
+            color="iPurple"
+            onClick={() => router.push("/clases")}
+          />
         </Flex>
       </Flex>
     </Flex>
