@@ -15,10 +15,10 @@ function Footer() {
       backgroundColor="aqua"
     >
       <Flex gap="20px">
-        <Link fontSize="18px">Home</Link>
-        <Link fontSize="18px">Clases</Link>
-        <Link fontSize="18px">Talleres</Link>
-        <Link fontSize="18px">Retiros</Link>
+        <Link  href="/" fontSize="18px">Home</Link>
+        <Link  href="/clases" fontSize="18px">Clases</Link>
+        <Link  href="/retiros" fontSize="18px">Retiros</Link>
+        <Link  href="/ubicacion" fontSize="18px">Ubicación</Link>
       </Flex>
 
       <Flex gap="20px" marginTop="20px" marginBottom="20px">

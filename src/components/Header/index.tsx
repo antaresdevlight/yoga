@@ -46,7 +46,7 @@ function Header() {
           fontWeight="700"
           lineHeight="normal"
           color="#112734"
-          href="/"
+          href="/retiros"
         >
           Retiros
         </Link>

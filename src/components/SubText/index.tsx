@@ -2,7 +2,7 @@ import { Flex, Text } from "@chakra-ui/react";
 
 function SubText(props: any) {
   return (
-    <Flex>
+    <Flex justifyContent="center">
       <Text
         fontSize="18px"
         fontWeight="400"
