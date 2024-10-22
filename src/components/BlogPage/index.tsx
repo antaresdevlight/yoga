@@ -8,8 +8,7 @@ function BlogPage() {
     <Flex
       justifyContent="center"
       alignItems="center"
-      border="1px"
-      paddingBottom="50px"
+      paddingBottom="70px"
       paddingTop="50px"
       flexDirection="column"
       gap="30px"
@@ -63,7 +62,7 @@ function BlogPage() {
       </Flex>
 
 
-      <Flex gap="20px">
+      <Flex gap="20px" paddingBottom="50px">
       <Image src={imagen2} width={300} height={200} alt="imagen2" />
       <Image src={imagen2} width={300} height={200} alt="imagen2" />
       </Flex>

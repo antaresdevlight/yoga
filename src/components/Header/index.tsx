@@ -50,6 +50,18 @@ function Header() {
         >
           Retiros
         </Link>
+
+        <Link
+          as={NextLink}
+          fontSize="14px"
+          fontWeight="700"
+          lineHeight="normal"
+          color="#112734"
+          href="/eventos"
+        >
+          Eventos
+        </Link>
+
         <Link
           as={NextLink}
           fontSize="14px"
